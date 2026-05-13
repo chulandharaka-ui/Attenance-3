@@ -1,0 +1,27 @@
+name: travel_tracker
+description: "A new Flutter project for tracking travel and SMS."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  flutter_local_notifications: ^17.1.2
+  timezone: ^0.9.2
+  telephony: ^0.2.0
+  permission_handler: ^11.3.0
+  intl: ^0.19.0
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
